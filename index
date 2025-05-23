@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Model Onboarding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Agency!</h1>
+        <p>Your journey to success starts here.</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-button active" data-tab="welcome">Welcome</button>
+        <button class="tab-button" data-tab="process">The OnlyFans Process</button>
+        <button class="tab-button" data-tab="agreement">Model Agreement</button>
+        <button class="tab-button" data-tab="contact">Contact Us</button>
+        <button class="tab-button" data-tab="onboarding-form">Onboarding Form</button>
+    </nav>
+
+    <main class="tab-content-area">
+        <section id="welcome" class="tab-content active">
+            <h2>Welcome & Introduction</h2>
+            <p>We're thrilled to have you join our agency! We are dedicated to helping you achieve your goals and maximize your potential on OnlyFans.</p>
+            <h3>What We Do</h3>
+            <p>Our agency provides comprehensive support including marketing, content strategy, account management, and personalized coaching to help you grow your fanbase and earnings.</p>
+            <h3>Onboarding Goal</h3>
+            <p>This onboarding process is designed to gather some essential information about you and provide you with key details about how we work together. Please fill out the form in the 'Onboarding Form' tab.</p>
+        </section>
+
+        <section id="process" class="tab-content">
+            <h2>The OnlyFans Process</h2>
+            <h3>Understanding OnlyFans</h3>
+            <p>OnlyFans is a platform where creators can monetize their content by offering exclusive photos, videos, and interactions to their subscribers. Success often comes from consistent, high-quality content and genuine fan engagement.</p>
+            <h3>Our Support</h3>
+            <p>We assist with:</p>
+            <ul>
+                <li>Content planning and scheduling.</li>
+                <li>Promotional strategies across various platforms.</li>
+                <li>Managing your OnlyFans page, including DMs and posts if desired.</li>
+                <li>Analyzing performance and optimizing your approach.</li>
+            </ul>
+            <h3>Key Expectations</h3>
+            <ul>
+                <li>Regular communication with your account manager.</li>
+                <li>Commitment to creating agreed-upon content.</li>
+                <li>Professionalism in all interactions.</li>
+            </ul>
+            <h3>Safety & Privacy</h3>
+            <p>Your safety and privacy are paramount. We'll guide you on best practices for online safety, protecting your identity, and managing your digital footprint. Never share personal information you're uncomfortable with.</p>
+        </section>
+
+        <section id="agreement" class="tab-content">
+            <h2>Model Agreement</h2>
+            <p>Please read the following agreement carefully. By checking the box and typing your name in the Onboarding Form, you acknowledge that you have read, understood, and agree to the terms outlined below.</p>
+            <div class="agreement-text-container" style="height: 400px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; margin-bottom: 15px; background-color: #fdfdfd;">
+                <h3>Section 1: Introduction</h3>
+                <p>This Model Agreement ("Agreement") is entered into as of the date of submission by and between [Your Agency Name] ("Agency") and the undersigned model ("Model").</p>
+                
+                <h3>Section 2: Services</h3>
+                <p>Agency agrees to provide Model with services including but not limited to account management, content strategy, marketing, and promotional activities for Model's OnlyFans account and related online presence.</p>
+                <p>Model agrees to cooperate with Agency, provide content as mutually agreed upon, and adhere to platform guidelines and Agency policies.</p>
+
+                <h3>Section 3: Compensation</h3>
+                <p>Details of compensation, revenue sharing, and payment schedules will be provided in a separate addendum or as communicated and agreed upon via email/Telegram. This typically involves a percentage split of net revenue generated from the Model's account managed by the Agency.</p>
+
+                <h3>Section 4: Content Ownership</h3>
+                <p>Model retains ownership of all original content provided. Model grants Agency a license to use, distribute, and manage this content on their behalf for the duration of this agreement, specifically for the purpose of managing and promoting the OnlyFans account.</p>
+
+                <h3>Section 5: Term and Termination</h3>
+                <p>This Agreement shall commence upon submission and continue on a month-to-month basis unless terminated by either party with [e.g., 30 days] written notice. Agency reserves the right to terminate this agreement immediately for breach of terms or misconduct.</p>
+
+                <h3>Section 6: Confidentiality</h3>
+                <p>Both parties agree to keep confidential information, including earnings, strategies, and personal data, private and not to disclose it to third parties without prior written consent, except as required by law.</p>
+
+                <h3>Section 7: Independent Contractor</h3>
+                <p>Model acknowledges that they are an independent contractor and not an employee of the Agency. Model is responsible for their own taxes and other legal obligations.</p>
+                
+                <h3>Section 8: Representations and Warranties</h3>
+                <p>Model warrants that they are at least 18 years of age, legally able to enter into this agreement, and that all content provided is original or they have the rights to use it, and it does not violate any laws or third-party rights.</p>
+
+                <h3>Section 9: Limitation of Liability</h3>
+                <p>Agency will make best efforts to promote and manage Model's account but does not guarantee specific earnings or results. Agency is not liable for indirect or consequential damages.</p>
+
+                <h3>Section 10: Governing Law</h3>
+                <p>This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction - e.g., your state/country].</p>
+
+                <p><strong>Please replace this placeholder text with your actual model agreement.</strong></p>
+            </div>
+            <p><em>By submitting the onboarding form, you will be asked to confirm your agreement to these terms. This electronic acknowledgment serves as your acceptance.</em></p>
+        </section>
+
+        <section id="contact" class="tab-content">
+            <h2>Contact Us</h2>
+            <p>For any questions or support, please reach out to us!</p>
+            <p><strong>Primary Contact (Telegram):</strong> <a href="https://t.me/YourAgencyTelegramUsername" target="_blank">YourAgencyTelegramUsername</a> (Replace with your actual Telegram link/username)</p>
+            <p><strong>Email (Optional):</strong> <a href="mailto:youremail@example.com">youremail@example.com</a> (Replace with your actual email)</p>
+            <p>We aim to respond to all queries within 24 hours during business days.</p>
+        </section>
+
+        <section id="onboarding-form" class="tab-content">
+            <h2>Onboarding Form</h2>
+            <p>Please fill out this form carefully. All information is kept confidential.</p>
+            <form id="modelOnboardingForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="stageName">Preferred Stage Name (if any):</label>
+                    <input type="text" id="stageName" name="stageName">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="socialMedia">Social Media Links (Instagram, Twitter, etc.):</label>
+                    <textarea id="socialMedia" name="socialMedia" rows="3" placeholder="e.g., https://instagram.com/yourprofile"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Previous Experience with OnlyFans or similar platforms?</label>
+                    <textarea id="experience" name="experience" rows="3" placeholder="Briefly describe your experience, if any."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="contentTypes">What types of content are you comfortable creating?</label>
+                    <textarea id="contentTypes" name="contentTypes" rows="3" placeholder="e.g., Photos, Videos, Lingerie, Themed, etc."></textarea>
+                </div>
+                 <div class="form-group">
+                    <label for="goals">What are your goals with OnlyFans?</label>
+                    <textarea id="goals" name="goals" rows="3" placeholder="e.g., Specific income target, number of subscribers, creative outlet, etc."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="availability">Your general availability for content creation/communication:</label>
+                    <input type="text" id="availability" name="availability">
+                </div>
+                <div class="form-group">
+                    <label for="idUpload">Upload ID (for verification - optional, if required by agency):</label>
+                    <input type="file" id="idUpload" name="idUpload" accept="image/*,.pdf">
+                </div>
+                <div class="form-group">
+                    <label for="notes">Any other questions or notes for us?</label>
+                    <textarea id="notes" name="notes" rows="3"></textarea>
+                </div>
+                <hr style="margin: 20px 0;">
+                <div class="form-group agreement-confirmation">
+                    <h3>Agreement Confirmation</h3>
+                    <p>Please review the <a href="#" onclick="document.querySelector('[data-tab=\'agreement\']').click(); return false;">Model Agreement</a> before submitting.</p>
+                    <input type="checkbox" id="agreeToTerms" name="agreeToTerms" value="agreed" required>
+                    <label for="agreeToTerms" style="display: inline; font-weight: normal;"> I have read, understood, and agree to the terms and conditions outlined in the Model Agreement.</label>
+                </div>
+                <div class="form-group">
+                    <label for="typedNameSignature">Type Your Full Name (as electronic signature):</label>
+                    <input type="text" id="typedNameSignature" name="typedNameSignature" required placeholder="Type your full name here">
+                </div>
+                <p class="form-note">Note: For this form to send an email, the 'action' attribute in the form tag needs to be configured with a service like Formspree.io and your unique Formspree ID. The agreement confirmation will be included in the submitted data.</p>
+                <p class="form-note" style="color: #c0392b; font-weight: bold;">Important: This form provides an acknowledgment of the agreement. For legally binding e-signatures, a dedicated service like OpenSign (self-hosted) or DocuSign would typically be required, which involves more complex integration.</p>
+                <button type="submit" class="submit-button">Submit Onboarding Information & Agree</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Agency Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
