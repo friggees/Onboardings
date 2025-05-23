@@ -1,0 +1,212 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5f7; /* Light pink/lavender background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(135deg, #ff7eb9, #ffae8b); /* Pink to peach gradient */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid #ff579a; /* Accent color */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+nav.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.tab-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: transparent;
+    color: #ff579a; /* Accent color for text */
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+    background-color: #ffeaf2; /* Lighter pink hover */
+    color: #e04888;
+}
+
+.tab-button.active {
+    color: #c93772; /* Darker pink for active tab */
+    border-bottom: 3px solid #c93772;
+    font-weight: bold;
+}
+
+.tab-content-area {
+    flex-grow: 1;
+    padding: 1.5rem;
+    max-width: 900px;
+    margin: 1rem auto; /* Centered content */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tab-content h2 {
+    color: #ff579a; /* Accent color */
+    margin-top: 0;
+    border-bottom: 2px solid #ffeaf2;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tab-content h3 {
+    color: #e04888;
+    margin-top: 1.5rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus {
+    border-color: #ff7eb9; /* Pink focus */
+    box-shadow: 0 0 5px rgba(255, 126, 185, 0.5);
+    outline: none;
+}
+
+.form-group input[type="file"] {
+    padding: 0.5rem;
+}
+
+.form-note {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f9f9f9;
+    border-left: 3px solid #ffae8b; /* Peach accent */
+    border-radius: 4px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.85rem 1.5rem;
+    background: linear-gradient(135deg, #ff7eb9, #ffae8b);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 1.5rem;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #e04888, #ee9870);
+    transform: translateY(-2px);
+}
+
+a {
+    color: #ff579a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #f0f0f0;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav.tabs {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .tab-button {
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+    .tab-button.active {
+         border-bottom: 3px solid #c93772;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    .tab-content-area {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
